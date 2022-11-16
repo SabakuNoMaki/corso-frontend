@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    color: #a8a8a8;
+    font-size: .75rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: .75rem;
+}
+
+p {
+    font-weight: 400;
+    font-size: .875rem;
+}
+
+.profile-picture {
+    width: 61px;
+    height: 61px;
+    background-color: #c4c4c4;
+    border-radius: 8px;
+}
+
+div > button {
+    background-color: #262626;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: .75rem;
+    border: 0rem;
+    border-radius: 50px;
+    height: 30px;
+    width: 90px;
+    
+}
+
+header {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.follower {
+    display: flex;
+    gap: 2rem;
+}
+
+.follower h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.follower h2 { 
+    display: flex;
+    justify-content: center;
+    margin-block-end: -15px;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.circle {
+    width: 55px;
+    height: 55px;
+    background-color: #c4c4c4;
+    border-radius: 50px;
+}
+
+.friends, .photos, .profile {
+    padding-top: 20px;
+}
+
+.square {
+    width: 6.875rem;
+    height: 6.875rem;
+    background-color: #c4c4c4;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    width: fit-content;
+    
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    width: fit-content;
+}
+
+.overflow {
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.overflow::-webkit-scrollbar {
+    display: none;
+}
+.user {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ .user h4 {
+    margin-block-start: -15px;
+ }
